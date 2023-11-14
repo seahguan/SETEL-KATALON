@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>add Policy Rules</name>
+   <tag></tag>
+   <elementGuidId>99d882ac-683d-4066-ac6e-6360b7e5a121</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;[\n  {\n    \&quot;permissions\&quot;: [\n      \&quot;\u003cstring\u003e\&quot;,\n      \&quot;\u003cstring\u003e\&quot;\n    ],\n    \&quot;url\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;method\&quot;: \&quot;ALL\&quot;,\n    \&quot;title\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;description\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;permanent\&quot;: false\n  },\n  {\n    \&quot;permissions\&quot;: [\n      \&quot;\u003cstring\u003e\&quot;,\n      \&quot;\u003cstring\u003e\&quot;\n    ],\n    \&quot;url\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;method\&quot;: \&quot;PUT\&quot;,\n    \&quot;title\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;description\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;permanent\&quot;: false\n  }\n]&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>access-token</name>
+      <type>Main</type>
+      <value></value>
+      <webElementGuid>180b6f65-2c90-4df0-b319-095c29dd2d75</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>6c7a252f-a1c2-43cc-a9e9-f575cb6a2717</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>72cfd649-8430-46d1-9d3a-5aa5dcf06546</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>9.0.0</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>${baseUrl}/:namespace/policies/:service/endpoints</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.baseUrl</defaultValue>
+      <description></description>
+      <id>c5879c9c-35f0-4fff-af02-a8f6f71b4e8f</id>
+      <masked>false</masked>
+      <name>baseUrl</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>
